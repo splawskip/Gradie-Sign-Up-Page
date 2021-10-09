@@ -19,7 +19,43 @@
                 <h1 class="modal__title">Gradie</h1>
                 <p class="modal__subtitle">Beautiful gradients in seconds.</p>
             </section>
-            <section class="modal__form"></section>
+            <section class="modal__form">
+                <form action="#" class="form">
+                    <h2 class="form__title">Login</h2>
+                    <label for="email" class="form__label label">email</label>
+                    <input
+                        type="text"
+                        name="email"
+                        class="form__input input input--text"
+                        placeholder="john@example.com"
+                        required
+                    />
+                    <label for="password" class="form__label label"
+                        >password</label
+                    >
+                    <input
+                        type="password"
+                        name="password"
+                        class="form__input input input--password"
+                        placeholder="At least 8 characters"
+                        required
+                    />
+                    <label for="terms" class="form__label label">
+                        <input
+                            type="checkbox"
+                            name="terms"
+                            id="terms"
+                            class="form__input input input--checkbox"
+                            required
+                        />
+                        By creating an account, you agree to the
+                        <a href="#" class="link">Terms & Conditions</a>.
+                    </label>
+                    <button type="submit" class="form__submit btn">
+                        Create an Account
+                    </button>
+                </form>
+            </section>
         </main>
     </body>
 </html>

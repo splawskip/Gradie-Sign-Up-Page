@@ -1,10 +1,10 @@
 .modal {
     display: flex;
+    min-height: 27.6rem;
     border-radius: 10px;
 
     &__teaser {
         width: 50%;
-        height: 100%;
         padding: 3.25rem;
         background-color: var(--c-dark);
         background-image: url('../img/iPhone-mockup.png');
@@ -14,6 +14,10 @@
     }
 
     &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
         width: 50%;
         height: 100%;
         padding: 3.25rem;

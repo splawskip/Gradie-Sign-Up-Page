@@ -1,0 +1,12 @@
+.input {
+    appearance: none;
+    border-radius: 0;
+
+    &--text,
+    &--password {
+        padding: .75rem;
+        background: transparent;
+        border: 1px solid var(--c-gray);
+        border-radius: 5px;
+    }
+}
