@@ -1,0 +1,33 @@
+.modal {
+    display: flex;
+    border-radius: 10px;
+
+    &__teaser {
+        width: 50%;
+        height: 100%;
+        padding: 3.25rem;
+        background-color: var(--c-dark);
+        background-image: url('../img/iPhone-mockup.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__form {
+        width: 50%;
+        height: 100%;
+        padding: 3.25rem;
+        background-color: var(--c-light);
+    }
+
+    &__title {
+        color: var(--c-light);
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin-top: .5rem;
+        color: var(--c-accent);
+        text-align: center;
+    }
+}

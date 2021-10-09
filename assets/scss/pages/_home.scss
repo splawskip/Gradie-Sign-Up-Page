@@ -1,0 +1,19 @@
+.home {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(113deg, rgba(238, 125, 162, 1) 0%, rgba(248, 215, 166, 1) 100%);
+    background-image: url('../img/site-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__modal {
+        width: 100%;
+        max-width: 860px;
+        height: 500px;
+        background-color: white;
+    }
+}
