@@ -1,0 +1,20 @@
+.btn {
+    padding: 1rem 3.25rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.15rem;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+
+    &--tone-dark {
+        color: var(--c-light);
+        background-color: var(--c-tone-dark);
+
+        &:hover {
+            background-color: var(--c-accent);
+        }
+    }
+}

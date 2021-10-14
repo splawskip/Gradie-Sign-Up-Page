@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./assets/scss/index.scss" />
@@ -40,18 +40,29 @@
                         placeholder="At least 8 characters"
                         required
                     />
-                    <label for="terms" class="form__label label">
+                    <label
+                        for="terms"
+                        class="form__label label label--checkbox"
+                    >
                         <input
                             type="checkbox"
                             name="terms"
                             id="terms"
+                            value="agreed"
                             class="form__input input input--checkbox"
                             required
                         />
-                        By creating an account, you agree to the
-                        <a href="#" class="link">Terms & Conditions</a>.
+                        <span class="checkbox__label">
+                            By creating an account, you agree to the
+                            <a href="#" class="link label__link"
+                                >Terms & Conditions</a
+                            >
+                        </span>
                     </label>
-                    <button type="submit" class="form__submit btn">
+                    <button
+                        type="submit"
+                        class="form__submit btn btn--tone-dark"
+                    >
                         Create an Account
                     </button>
                 </form>

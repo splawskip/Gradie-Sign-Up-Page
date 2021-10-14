@@ -2,4 +2,26 @@
     display: flex;
     flex-direction: column;
 
+    &__label {
+        margin-top: 1.25rem;
+        font-family: 'DM Sans', sans-serif;
+        font-size: .9rem;
+        font-weight: 700;
+        line-height: 1.125rem;
+        color: var(--c-tone-dark);
+
+        &::first-letter {
+            text-transform: capitalize;
+        }
+    }
+
+    &__input {
+        &:not(.input--checkbox) {
+            margin-top: .75rem;
+        }
+    }
+
+    &__submit {
+        margin-top: 1.25rem;
+    }
 }

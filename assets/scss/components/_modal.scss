@@ -1,16 +1,26 @@
 .modal {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    max-width: 860px;
+    height: auto;
     min-height: 27.6rem;
-    border-radius: 10px;
+    overflow: hidden;
 
     &__teaser {
-        width: 50%;
+        width: 100%;
         padding: 3.25rem;
-        background-color: var(--c-dark);
+        background-color: var(--c-tone-dark);
         background-image: url('../img/iPhone-mockup.png');
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-position: bottom;
+        background-size: contain;
+        border: 1px solid var(--c-tone-dark);
+        border-radius: 10px 0 0 10px;
+
+        @media screen and (max-width: 1024px) {
+            border-radius: 0;
+        }
     }
 
     &__form {
@@ -18,10 +28,16 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        width: 50%;
+        width: 100%;
         height: 100%;
         padding: 3.25rem;
         background-color: var(--c-light);
+        border: 1px solid var(--c-tone-light);
+        border-radius: 0 10px 10px 0;
+
+        @media screen and (max-width: 1024px) {
+            border-radius: 0 0 10px 10px;
+        }
     }
 
     &__title {
@@ -33,5 +49,18 @@
         margin-top: .5rem;
         color: var(--c-accent);
         text-align: center;
+    }
+
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr;
+    }
+
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+        width: 70%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100vw;
+        height: 100vh;
     }
 }
