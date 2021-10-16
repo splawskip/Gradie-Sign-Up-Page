@@ -10,12 +10,12 @@
     border-radius: 5px;
 
     &--tone-dark {
-        color: var(--c-light);
-        background-color: var(--c-tone-dark);
+        color: var(--c-white);
+        background-color: var(--c-rich-black);
         transition: var(--t-swing);
 
         &:hover {
-            background-color: var(--c-accent);
+            background-color: var(--c-dark-sky-blue);
             transition: var(--t-swing);
         }
     }

@@ -4,7 +4,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(113deg, rgba(238, 125, 162, 1) 0%, rgba(248, 215, 166, 1) 100%);
+    background: linear-gradient(113deg, var(--c-cyclamen) 0%, var(--c-deep-champagne) 100%);
     background-image: url('../img/site-background.png');
     background-repeat: no-repeat;
     background-position: center;

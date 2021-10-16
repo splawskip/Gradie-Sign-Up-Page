@@ -1,11 +1,13 @@
 :root {
     // Colors.
-    --c-dark: #000000;
-    --c-tone-dark: #013243;
-    --c-light: #FFFFFF;
-    --c-tone-light: #BCBCBC;
-    --c-gray: #8D8D8D;
-    --c-accent: #86BFD3;
+    --c-black: #000000;
+    --c-rich-black: #013243;
+    --c-white: #FFFFFF;
+    --c-gray: #BCBCBC;
+    --c-philippine-gray : #8D8D8D;
+    --c-dark-sky-blue: #86BFD3;
+    --c-cyclamen: #EE7DA2;
+    --c-deep-champagne: #F8D7A6;
     // Transitions.
     --t-swing: .2s cubic-bezier(.25, .8, .5, 1);
 }

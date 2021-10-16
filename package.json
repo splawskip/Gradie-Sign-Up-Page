@@ -1,9 +1,8 @@
 {
     "name": "gradie",
-    "homepage": "https://github.com/splawskip/Gradie-Sign-Up-Page#readme",
+    "homepage": "https://splawskip.github.io/Gradie-Sign-Up-Page/",
     "version": "1.0.0",
     "description": "Gradie is a simple sign up page, great to practice centering layouts and absolute positioning.",
-    "main": "index.js",
     "scripts": {
         "watch": "parcel index.html",
         "build": "parcel build index.html",

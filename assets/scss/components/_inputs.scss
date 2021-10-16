@@ -7,7 +7,7 @@
     &--password {
         padding: .75rem;
         background: transparent;
-        border: 1px solid var(--c-gray);
+        border: 1px solid var(--c-philippine-gray);
         border-radius: 5px;
     }
 
@@ -16,9 +16,9 @@
         display: inline-block;
         width: 1rem;
         height: 1rem;
-        color: var(--c-light);
+        color: var(--c-white);
         cursor: pointer;
-        border: 1px solid var(--c-gray);
+        border: 1px solid var(--c-philippine-gray);
         border-radius: 5px;
 
         & + span {
@@ -26,14 +26,14 @@
         }
 
         &:checked {
-            background-color: var(--c-accent);
+            background-color: var(--c-dark-sky-blue);
 
             & + span::before {
                 position: absolute;
                 top: .2;
                 left: .3rem;
                 display: block;
-                color: var(--c-light);
+                color: var(--c-white);
                 text-align: center;
                 pointer-events: none;
                 content: '\2713';
@@ -44,7 +44,7 @@
     // Create custom focus styles.
     &:focus {
         outline: none;
-        box-shadow: 0 0 0 3px rgba(134, 191, 211, .4); // Accent color here -> Cannot be CSS custom property, cuz rgba does not support them yet.
+        box-shadow: 0 0 0 3px rgba(var(--c-dark-sky-blue), .4);
         transition: var(--t-swing);
     }
 }

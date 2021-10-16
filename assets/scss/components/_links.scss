@@ -4,14 +4,14 @@
     font-size: .9rem;
     font-weight: 700;
     line-height: 1.35rem;
-    color: var(--c-tone-dark);
+    color: var(--c-rich-black);
     text-decoration: none;
-    border-bottom: 3px solid var(--c-tone-dark);
+    border-bottom: 3px solid var(--c-rich-black);
     transition: var(--t-swing);
 
     &:hover {
-        color: var(--c-accent);
-        border-color: var(--c-accent);
+        color: var(--c-dark-sky-blue);
+        border-color: var(--c-dark-sky-blue);
         transition: var(--t-swing);
     }
 }

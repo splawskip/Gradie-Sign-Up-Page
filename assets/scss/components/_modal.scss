@@ -10,12 +10,12 @@
     &__teaser {
         width: 100%;
         padding: 3.25rem;
-        background-color: var(--c-tone-dark);
+        background-color: var(--c-rich-black);
         background-image: url('../img/iPhone-mockup.png');
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: contain;
-        border: 1px solid var(--c-tone-dark);
+        border: 1px solid var(--c-rich-black);
         border-radius: 10px 0 0 10px;
 
         @media screen and (max-width: 1024px) {
@@ -31,8 +31,8 @@
         width: 100%;
         height: 100%;
         padding: 3.25rem;
-        background-color: var(--c-light);
-        border: 1px solid var(--c-tone-light);
+        background-color: var(--c-white);
+        border: 1px solid var(--c-gray);
         border-radius: 0 10px 10px 0;
 
         @media screen and (max-width: 1024px) {
@@ -41,13 +41,13 @@
     }
 
     &__title {
-        color: var(--c-light);
+        color: var(--c-white);
         text-align: center;
     }
 
     &__subtitle {
         margin-top: .5rem;
-        color: var(--c-accent);
+        color: var(--c-dark-sky-blue);
         text-align: center;
     }
 
