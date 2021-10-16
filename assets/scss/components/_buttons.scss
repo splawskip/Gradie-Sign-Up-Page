@@ -12,9 +12,11 @@
     &--tone-dark {
         color: var(--c-light);
         background-color: var(--c-tone-dark);
+        transition: var(--t-swing);
 
         &:hover {
             background-color: var(--c-accent);
+            transition: var(--t-swing);
         }
     }
 }

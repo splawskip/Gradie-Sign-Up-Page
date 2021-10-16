@@ -7,11 +7,11 @@
     color: var(--c-tone-dark);
     text-decoration: none;
     border-bottom: 3px solid var(--c-tone-dark);
+    transition: var(--t-swing);
 
-    &:hover,
-    &:visited,
-    &:active {
+    &:hover {
         color: var(--c-accent);
         border-color: var(--c-accent);
+        transition: var(--t-swing);
     }
 }

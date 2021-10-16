@@ -1,6 +1,7 @@
 .input {
     appearance: none;
     border-radius: 0;
+    transition: var(--t-swing);
 
     &--text,
     &--password {
@@ -30,17 +31,20 @@
             & + span::before {
                 position: absolute;
                 top: .2;
-                left: .35rem;
+                left: .3rem;
                 display: block;
                 color: var(--c-light);
                 text-align: center;
+                pointer-events: none;
                 content: '\2713';
             }
         }
     }
+
     // Create custom focus styles.
     &:focus {
         outline: none;
         box-shadow: 0 0 0 3px rgba(134, 191, 211, .4); // Accent color here -> Cannot be CSS custom property, cuz rgba does not support them yet.
+        transition: var(--t-swing);
     }
 }
